@@ -1,158 +1,97 @@
-<!-- <html>
-<head>
-<meta http-equiv="refresh" content="0; URL='http://jane.ptangen.com'" />
-</head>
-<body>
-Redirecting....
-</body>
-</html> -->
 <!DOCTYPE html>
 <html>
-<title>Jane's Page</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body class="w3-content" style="max-width:1300px">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+    <style>
 
-<!-- First Grid: Logo & About -->
-<div class="w3-row">
-  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
-    <div class="w3-padding-64">
-      <h1>Jane</h1>
-    </div>
-    <div class="w3-padding-64">
-      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a>
-      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">Photos</a>
-      <a href="#work" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Resume</a>
-      <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Contact</a>
-    </div>
-  </div>
-  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
-    <div class="w3-padding-64 w3-center">
-      <h1>About Me</h1>
-      <img src="profile.jpg" class="w3-margin w3-circle" alt="Person" style="width:50%">
-      <div class="w3-left-align w3-padding-large">
-        <p>Masters student at UMass Amherst.</p>
-        <p>Free time is dedicated to eating, sleeping, and occasionally traveling.</p>
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-- Second Grid: Work & Resume -->
-<div class="w3-row">
-  <div class="w3-half w3-light-grey w3-center" style="min-height:1122px" id="work">
-    <div class="w3-padding-64">
-      <h2>Photos</h2>
-      <p>My photos from travels.</p>
-    </div>
-    <div class="w3-row">
-      <div class="w3-half">
-        <img src="corgi_japan.jpg" style="width:100%;">
-      </div>
-      <div class="w3-half">
-        <img src="frog.jpg" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-row w3-hide-small">
-      <div class="w3-half">
-        <img src="womens_march.jpg" style="width:100%">
-      </div>
-      <div class="w3-half">
-        <img src="nyc.jpg" style="width:100%">
-      </div>
-    </div>
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #4c4c4c;
+  background: #fff;
+}
 
-    <div class="w3-row w3-hide-small">
-      <div class="w3-half">
-        <img src="rome_gas.jpg" style="width:100%">
-      </div>
-      <div class="w3-half">
-        <img src="montreal.jpg" style="width:100%">
-      </div>
-    </div><br>
-    <p>(The corgi in Japan is my favorite.)</p>
-  </div>
-  <div class="w3-half w3-indigo w3-container" style="min-height:1122px">
-    <div class="w3-padding-64 w3-center">
-      <h2>Background</h2>
-      <p></p>
-      <div class="w3-container w3-responsive">
-        <table class="w3-table">
-          <tr>
-            <th>Year</th>
-            <th>Title</th>
-            <th>Where</th>
-          </tr>
-          <tr class="w3-white">
-            <td>Spring 2019 - Fall 2019</td>
-            <td>CICS MS Grad Rep</td>
-            <td>UMass</td>
-          </tr>
-          <tr>
-            <td>Fall 2018 - Fall 2019</td>
-            <td>UMass Cybersecurity Club</td>
-            <td>UMass</td>
-          </tr>
-          <tr class="w3-white">
-            <td>Fall 2015 - Sping 2017</td>
-            <td>Student Lead IT Consultant</td>
-            <td>UMass IT User Services</td>
-          </tr>
-          <tr>
-            <td>Fall 2016</td>
-            <td>TA for CS 220</td>
-            <td>UMass</td>
-          </tr>
-          <tr  class="w3-white">
-            <td>Summer 2016</td>
-            <td>Undergrad Researcher in PLASMA</td>
-            <td>UMass CICS</td>
-          </tr>
-          <tr>
-            <td>Fall 2015</td>
-            <td>Student IT Consultant</td>
-            <td>UMass Isenberg</td>
-          </tr>
-          <tr class="w3-white">
-            <td>Fall 2018 - Spring 2019</td>
-            <td>MS in CS</td>
-            <td>UMass</td>
-          </tr>
-          <tr>
-            <td>Fall 2015 - Spring 2018</td>
-            <td>BS in CS</td>
-            <td>UMass</td>
-          </tr>
-          <tr class="w3-white">
-            <td>Fall 2013- Early 2015</td>
-            <td>HS Community Student</td>
-            <td>Dartmouth</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-  </div>
-</div>
+a {
+  transition: .3s all ease;
+  text-decoration: none;
+}
 
-<!-- Third Grid: Swing By & Contact -->
-<div class="w3-row" id="contact">
-  <div class="w3-half w3-dark-grey w3-container w3-center" style="height:700px">
-    <div class="w3-padding-64">
-      <h1>Contact me!</h1>
-    </div>
-    <div class="w3-padding-64">
-      <p>Email me at jktangen at cs dot umass</p>
-      <p>See my limited git page! <a href="https://github.com/onlyNexusHere"> GIT </a> </p>
-    </div>
-  </div>
-  <div class="w3-half w3-teal w3-container" style="height:700px">
-    <div class="w3-padding-64 w3-center">
-      <h1>From XKCD</h1>
-      <img src="https://imgs.xkcd.com/comics/functional.png" style="width:60%;">
-    </div>
-  </div>
-</div>
+a:hover {
+  text-decoration: none;
+}
 
-</body>
+h1, h2, h3, h4, h5 {
+  color: #000;
+  font-family: "Playfair Display", times, serif;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+main, aside {
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  main, aside {
+    width: 50%;
+  }
+}
+
+aside {
+  background-position: center left;
+  background-size: cover;
+  width: 400px;
+  position: relative;
+}
+
+@media (min-width: 576px) {
+  aside {
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+}
+
+main {
+  float: right;
+  padding-top: 10%;
+  position: relative;
+  background-color: white;
+}
+
+    </style>
+  </head>
+  <body>
+
+    <aside style="background-image: url(profile2.jpg);"></aside>
+      <main>
+        <h1>Hi, I'm Jane</h1>
+        <div>
+        <p >Graduate Student in Computer Science</p>
+        <p>Master's student in CS at UMass Amherst with a concentration in security. Currently servering as the Master's Grad Rep in CICS and a Vice President in the <a href="http://infosec.cs.umass.edu/content/umass-cybersec-club">UMass Cybersecurity Club</a>. Member of <a href="http://infosec.cs.umass.edu/content/umass-amherst-scholarship-service-program">SFS.</a> I worked jobs at <a href="https://www.umass.edu/it/support-center"> UMass IT User Servers </a> as a lead consultant, Isenberg TSS as a student IT consultant, TA for <a href="https://people.cs.umass.edu/~arjun/courses/compsci220-fall2016/home/">CS 220</a>, undergrad researcher in the <a href="https://plasma-umass.org/">PLASMA </a> lab. My undergrad degree is from UMass in CS, my first college courses are from Dartmouth College as a <a href="https://news.dartmouth.edu/news/2015/03/early-start-college-studies-thanks-dartmouth">Community Student.</a> </p>
+        <p>Something something something...</p>
+
+        </div>
+
+        <p>
+          <a href="traveling_photos.html">Photos from Travels</a>
+          <a href="https://github.com/onlyNexusHere">Git</a>
+        </p>
+        </div>
+        
+      </main>
+
+  </body>
 </html>
